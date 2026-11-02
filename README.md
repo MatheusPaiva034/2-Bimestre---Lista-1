@@ -27,8 +27,14 @@ Atividade acadêmica de autenticação e autorização usando C#, ASP.NET Core .
 3. Perfil sem token: `401 Unauthorized`.
 4. Perfil com token válido: `200 OK`.
 
+## Arquivos úteis
+- [Respostas dos exercícios teóricos](Respostas-Teoricas.md)
+- [Coleção de testes do Postman](postman/ApiJwt.postman_collection.json)
+
+Para importar a coleção, abra o Postman, clique em **Import** e selecione o arquivo JSON. Se necessário, ajuste a variável `baseUrl` para a URL e porta que aparecem quando você executa a API.
+
 ## Segurança
 Este projeto é exclusivamente didático. A chave de assinatura é de demonstração. Em produção, armazene segredos em variáveis de ambiente ou em um gerenciador de segredos e nunca publique chaves reais.
 
 ## Evidências
-Adicione nesta seção as capturas de tela dos quatro testes realizados no Postman, após executá-los localmente.
+Após executar os quatro testes no Postman, adicione capturas de tela dos resultados nesta seção ou na entrega da atividade. As capturas ainda precisam ser feitas localmente.
